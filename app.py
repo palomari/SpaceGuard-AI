@@ -13,19 +13,18 @@ st.set_page_config(
 st.markdown("""
     <style>
 
-        /* Título */
         h1 {
             color: #00d4ff;
             text-align: center;
             text-shadow: 0px 0px 15px #00d4ff;
         }
 
-        /* Subtítulo */
+        .main { background-color: #0e1117; }
+
         h2, h3, h4, p {
             color: #e6f1ff;
         }
 
-        /* Botão mais escuro e elegante */
         .stButton > button {
             background: linear-gradient(90deg, #003b66, #001f33);
             color: white;
@@ -41,12 +40,6 @@ st.markdown("""
         .stButton > button:hover {
             background: linear-gradient(90deg, #005a99, #002b4d);
             transform: scale(1.02);
-        }
-
-        /* Inputs */
-        input {
-            background-color: rgba(255,255,255,0.05) !important;
-            color: white !important;
         }
     </style>
 """, unsafe_allow_html=True)
