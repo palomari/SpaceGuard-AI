@@ -202,7 +202,7 @@ A aplicação permite que o usuário informe características de um evento natur
 
 ### Aplicação
 
-🔗 Inserir link após publicação no Streamlit Community Cloud
+🔗 https://palomari-spaceguard.streamlit.app
 
 ---
 
