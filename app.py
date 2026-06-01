@@ -12,20 +12,46 @@ st.set_page_config(
 # Estilo visual (CSS simples)
 st.markdown("""
     <style>
-        .main {
-            background-color: #0e1117;
+        /* Fundo estilo espaço */
+        .stApp {
+            background: radial-gradient(circle at top, #0b0f1a, #05060a, #000000);
+            background-attachment: fixed;
         }
+
+        /* Título */
         h1 {
             color: #00d4ff;
             text-align: center;
+            text-shadow: 0px 0px 15px #00d4ff;
         }
+
+        /* Subtítulo */
+        h2, h3, h4, p {
+            color: #e6f1ff;
+        }
+
+        /* Botão mais escuro e elegante */
         .stButton > button {
-            background-color: #00d4ff;
-            color: black;
+            background: linear-gradient(90deg, #003b66, #001f33);
+            color: white;
             font-weight: bold;
-            border-radius: 10px;
+            border-radius: 12px;
             height: 3em;
             width: 100%;
+            border: 1px solid #00d4ff;
+            box-shadow: 0px 0px 10px rgba(0, 212, 255, 0.3);
+            transition: 0.2s;
+        }
+
+        .stButton > button:hover {
+            background: linear-gradient(90deg, #005a99, #002b4d);
+            transform: scale(1.02);
+        }
+
+        /* Inputs */
+        input {
+            background-color: rgba(255,255,255,0.05) !important;
+            color: white !important;
         }
     </style>
 """, unsafe_allow_html=True)
