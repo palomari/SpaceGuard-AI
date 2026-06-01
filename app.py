@@ -12,11 +12,6 @@ st.set_page_config(
 # Estilo visual (CSS simples)
 st.markdown("""
     <style>
-        /* Fundo estilo espaço */
-        .stApp {
-            background: radial-gradient(circle at top, #0b0f1a, #05060a, #000000);
-            background-attachment: fixed;
-        }
 
         /* Título */
         h1 {
