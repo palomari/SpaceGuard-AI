@@ -81,7 +81,7 @@ with col7:
 st.markdown("---")
 
 # Botão central
-if st.button("🚀 Realizar Previsão"):
+if st.button("Realizar Previsão"):
 
     entrada = pd.DataFrame({
         "latitude": [latitude],
