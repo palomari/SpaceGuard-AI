@@ -13,17 +13,9 @@ st.set_page_config(
 st.markdown("""
     <style>
 
-        h1 {
-            color: #00d4ff;
-            text-align: center;
-            text-shadow: 0px 0px 15px #00d4ff;
-        }
-
-        .main { background-color: #0e1117; }
-
-        h2, h3, h4, p {
-            color: #e6f1ff;
-        }
+        .main { background-color: #0e1117; } 
+        
+        h1 { color: #00d4ff; text-align: center; }
 
         .stButton > button {
             background: linear-gradient(90deg, #003b66, #001f33);
